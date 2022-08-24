@@ -1,3 +1,4 @@
+import { JogoDaVelhaModule } from './jogo-da-velha/jogo-da-velha.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    JogoDaVelhaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
