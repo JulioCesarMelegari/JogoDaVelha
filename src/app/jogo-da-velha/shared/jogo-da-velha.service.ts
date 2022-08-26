@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-@Injectable()
+
 export class JogoDaVelhaService {
 
   private readonly TAM_TAB: number = 3;
